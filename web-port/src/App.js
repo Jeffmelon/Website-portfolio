@@ -4,7 +4,12 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <Router></Router>
+      <Router>
+        <Routes>
+          <Route path="/" element={<home />} />
+          <Route path="/websites" element={<websites />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

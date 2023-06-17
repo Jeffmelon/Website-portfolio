@@ -1,7 +1,7 @@
-.navbar {
+.navBar {
     width: 100%;
     height: 100px;
-    background: #21325e;
+    background: #582790;
   }
   
   .links {
@@ -13,14 +13,14 @@
     color: white;
   }
   
-  .navbar a {
+  .navBar a {
     color: white;
     text-decoration: none;
     margin: 20px;
     font-size: 25px;
   }
   
-  .toggleButton {
+  .toggle {
     width: 100%;
     height: 100px;
     display: flex;
@@ -28,10 +28,10 @@
     justify-content: flex-end;
   }
   
-  .toggleButton svg {
+  .toggle svg {
     font-size: 50px;
   }
-  .toggleButton button {
+  .toggle button {
     margin-right: 20px;
     background-color: transparent;
     border: none;
@@ -55,13 +55,13 @@
   }
   
   @media only screen and (max-width: 900px) {
-    .navbar a {
+    .navBar a {
       width: 70px;
     }
   }
   
   @media only screen and (max-width: 600px) {
-    .toggleButton {
+    .toggle {
       display: flex;
     }
     #close a {
@@ -70,7 +70,7 @@
   }
   
   @media only screen and (min-width: 600px) {
-    .toggleButton {
+    .toggle {
       display: none;
     }
   

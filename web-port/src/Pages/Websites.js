@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 function Websites() {
   return (
-    <div>Websites</div>
+    <div className='websites'>
+    </div>
   )
 }
 

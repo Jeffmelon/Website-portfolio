@@ -24,7 +24,7 @@ function Home() {
             <span>HTML, CSS, ReactJS, Angular</span>
           </li>
           <li className='item'>
-            <h2>Javascript</h2>
+            <h2>Back-End</h2>
             <span>Javascript, NodeJS, MongoDB, MySQL</span>
           </li>
           <li className='item'>

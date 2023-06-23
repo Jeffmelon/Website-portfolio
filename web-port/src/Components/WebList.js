@@ -1,8 +1,11 @@
 import React from 'react'
 
-function WebList() {
+function WebList({ image, name}) {
   return (
-    <div>WebList</div>
+    <div className='webItem'>
+        <div style={{ backgroundImage: `url(${image})` }} className='bgImage'/>
+        <h1> {name} </h1>
+    </div>
   )
 }
 

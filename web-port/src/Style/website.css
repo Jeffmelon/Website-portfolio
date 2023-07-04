@@ -6,12 +6,6 @@
     align-items: center;
     flex-direction: column;
   }
-  .websites .webTitle {
-    text-align: center;
-    color: #3e497a;
-    font-size: 60px;
-    font-weight: bolder;
-  }
   
   .webList {
     width: 70vw;

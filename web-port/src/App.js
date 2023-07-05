@@ -5,6 +5,8 @@ import Websites from './Pages/Websites';
 import Art from './Pages/Art';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
+import WebDisplay from './Pages/WebDisplay';
+
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/websites" element={<Websites />} />
+          <Route path="/website/:id" element={<WebDisplay />} />
           <Route path="/art" element={<Art />} />
         </Routes>
         <Footer />

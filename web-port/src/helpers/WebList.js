@@ -6,13 +6,16 @@ export const webList = [
     {
         name: "HTML/CSS pratice Site",
         image: HTMLCSS,
+        skills: "HTML, CSS",
     },
     {
         name: "Movie API Site",
         image: Movies,
+        skills: "HTML, CSS, REACT.js, API",
     },
     {
         name: "To Do List Site",
         image: TODO,
+        skills: "HTML, CSS, Javascript",
     },
 ]

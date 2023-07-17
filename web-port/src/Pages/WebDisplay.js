@@ -10,6 +10,7 @@ function WebDisplay() {
     <div classname="web">
       <h1>{web.name}</h1>
       <img src={web.image} alt=""/>
+      <p>Skills: {web.skills}</p>
       <GitHubIcon />
     </div>
   )

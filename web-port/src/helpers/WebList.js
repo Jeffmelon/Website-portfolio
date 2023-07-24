@@ -1,6 +1,6 @@
-import HTMLCSS from "../assets/HTMLCSS.png"
-import Movies from '../assets/Movies.png';
-import TODO from '../assets/TODO.png';
+import HTMLCSS from "../assets/HTMLCSS.jpg"
+import Movies from '../assets/Movies.jpg';
+import TODO from '../assets/TODO.jpg';
 
 export const webList = [
     {

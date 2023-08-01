@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
 
-function WebList({ image, name}) {
+function WebList({ image, name, id}) {
   const navigate = useNavigate()
   return (
     <div className='webItem' onClick={() => {navigate("/project/" + id)}}>

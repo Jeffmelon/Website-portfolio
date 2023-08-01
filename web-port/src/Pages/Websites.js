@@ -8,8 +8,8 @@ function Websites() {
     <div className='websites'>
       <h1 className='webTitle'>My Websites</h1>
       <div className='webList'>
-        {webList.map((website) => {
-          return <WebList name={website.name} image={website.image}/>
+        {webList.map((website, idx) => {
+          return <WebList id={idx} name={website.name} image={website.image}/>
         })}
       </div>
     </div>

@@ -1,15 +1,15 @@
 import React from 'react';
 import ArtGallery from '../Components/artList';
-import "../Style/website.css";
+import "../Style/art.css";
 import {artGallery} from "../helpers/artList.js"
 
 function Art() {
   return (
     <div className='websites'>
-      <h1 className='webTitle'>My Websites</h1>
+      <h1 className='webTitle'>Art Pieces</h1>
       <div className='webList'>
-        {artGallery.map((art) => {
-          return <ArtGallery name={art.name} image={art.image}/>
+        {artGallery.map((art, idx) => {
+          return <ArtGallery id={idx} name={art.name} image={art.image}/>
         })}
       </div>
     </div>

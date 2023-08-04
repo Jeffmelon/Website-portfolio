@@ -1,6 +1,6 @@
 import React from 'react';
 import ArtGallery from '../Components/artList';
-import "../Style/art.css";
+import "../Style/website.css";
 import {artGallery} from "../helpers/artList.js"
 
 function Art() {

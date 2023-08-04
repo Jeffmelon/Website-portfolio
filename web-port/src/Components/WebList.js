@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 function WebList({ image, name, id}) {
   const navigate = useNavigate()
   return (
-    <div className='webItem' onClick={() => {navigate("/project/" + id)}}>
+    <div className='webItem' onClick={() => {navigate("/websites/" + id)}}>
         <div style={{ backgroundImage: `url(${image})` }} className='bgImage'/>
         <h1> {name} </h1>
     </div>

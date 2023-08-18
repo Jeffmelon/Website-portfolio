@@ -11,7 +11,7 @@ import Sheriff from "../assets/Sheriff.jpg"
 import Two_Ghost from "../assets/Two_Ghost.jpg"
 import Game from "../assets/Game.jpg"
 
-export const artGallery = [
+export const artList = [
     {
         name: "Grayson In the Graveyard",
         image: Ghost,

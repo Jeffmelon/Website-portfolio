@@ -1,11 +1,11 @@
 import React from 'react';
 import { useParams } from "react-router-dom";
-import { artGallery } from '../helpers/artList';
+import { artList } from '../helpers/artList';
 import "../Style/webDisplay.css";
 
-export default function ArtDisplay() {
+function ArtDisplay() {
   const { id } = useParams();
-  const art = artGallery[id]
+  const art = artList[id]
   return (
     <div className="project">
       <h1>{art.name}</h1>
@@ -13,3 +13,5 @@ export default function ArtDisplay() {
     </div>
   )
 }
+
+export default ArtDisplay
